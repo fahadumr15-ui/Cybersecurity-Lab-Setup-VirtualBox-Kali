@@ -1,14 +1,14 @@
 # Cybersecurity Lab Setup (VirtualBox & Kali Linux) - Week 1
 
 ## Overview
-This repository documents the setup of a isolated Cybersecurity & Ethical Hacking lab environment using VirtualBox, custom NATNetwork configurations, and Kali Linux as the primary attacker machine[cite: 1].
+This repository documents the setup of a isolated Cybersecurity & Ethical Hacking lab environment using VirtualBox, custom NATNetwork configurations, and Kali Linux as the primary attacker machine.
 
 ## Lab Architecture & Technical Details
-- **Hypervisor:** Oracle VM VirtualBox[cite: 1]
-- **Attacker OS:** Kali Linux (`10.0.0.2/24`)[cite: 1]
-- **Network Subnet:** `10.0.0.0/24` (NATNetwork with DHCP Enabled)[cite: 1, 4]
-- **Default Gateway:** `10.0.0.1`[cite: 6]
-- **DNS Server:** `8.8.8.8`[cite: 6]
+- **Hypervisor:** Oracle VM VirtualBox
+- **Attacker OS:** Kali Linux (`10.0.0.2/24`)
+- **Network Subnet:** `10.0.0.0/24` (NATNetwork with DHCP Enabled)
+- **Default Gateway:** `10.0.0.1`
+- **DNS Server:** `8.8.8.8`
 
 ## Key Configuration Steps
 1. **VirtualBox NATNetwork Setup:** Configured custom subnet `10.0.0.0/24`[cite: 1, 3].
